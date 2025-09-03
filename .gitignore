@@ -1,2 +1,18 @@
-node_modules 
-dist 
+# Dépendances / builds
+node_modules
+dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Envs (ne JAMAIS pousser de secrets)
+.env
+.env.*
+!.env.example
+
+# Éditeurs / OS
+.vscode
+.idea
+.DS_Store
