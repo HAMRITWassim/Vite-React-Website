@@ -14,5 +14,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/React-Website/",
+  base: "/Vite-React-Website/",
 });
