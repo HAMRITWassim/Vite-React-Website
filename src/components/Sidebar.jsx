@@ -8,6 +8,7 @@ import { videoPathToName } from "../stores/videoStore.js";
 gsap.registerPlugin(useGSAP);
 
 function Sidebar(props) {
+  const test = 0;
   const videoNames = [];
   const ul = useRef();
   const videoPath = useVideoStore((state) => state.path);
